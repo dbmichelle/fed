@@ -43,7 +43,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/homepage.jpg" width="375px" alt="de home pagina van de kleding webshop genaamd ShopSkyDance.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  PRODUCT (detailpagina van een product) 
+  PRODUCT (detailpagina van een product)
+  
   <img src="readme-images/product-page-1.jpg" width="375px" alt="een product pagina van een hoodie. Er zijn meerdere foto's van verschillende hoeken van het product.">
   <img src="readme-images/product-page-2.jpg" width="375px" alt="Meer informatie over het product volgt. Er is een accordion gebruikt om informatie over het product aan te tonen.">
  
