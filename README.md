@@ -32,7 +32,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 
-<details open>
+<details>
   <summary>🌞Details</summary>
 
   ### Je opdracht:
@@ -54,7 +54,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details>
+<details open>
   <summary>🌞Details</summary>
 
   ### Bevindingen
@@ -73,7 +73,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Shocks: niet getest
+  
+  Elastiek: scrollen lukt, het verplaatsen lukt wat lastiger. Een beetje onduidelijkheid m.b.t. de buttons voor kledingmaten. De donkergrijze button betekent "uitverkocht" en als je erop klikt, komt erboven “sold out” te staan. Dit is alleen maar weergegeven als kleine, zwarte tekst.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
