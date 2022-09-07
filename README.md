@@ -55,7 +55,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 1e werkgroep</summary>
+  <summary>🌞Details</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
@@ -80,6 +80,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Dark/light Mode: ✔️
+  De website heeft een dark/light modus. De buttons weergeven dit alleen niet helemaal handig.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
