@@ -64,6 +64,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  
+  #### Concentratieproblemen
+  De gebruiker vond dat er veel plaatjes waren, maar dat is best logisch voor een webshop die producten aan biedt.
+  Er kan wel gekeken worden naar andere kleding webshops om te kijken hoe zij hun producten weergeven en of dit dan bij mijn website beter kan.
+  
+  De gebruiker miste verder een hover effect op buttons en de call to action was niet sterk aanwezig.
+  Ook was de font bij de beschikbare maten erg dun en dus onleesbaar (vooral op kleine schermen kan dit een probleem gaan vormen).
+  De rating van producten is verder ook erg klein en belemmert de readability. 
+  Verder moeten de betaalmethodes hun kleur behouden -- de website heeft de iconen zwart-wit gemaakt zodat het in de huisstijl past. 
+  Dit kan een prima keuze zijn maar in dit geval miste de gebruiker de herkenning van deze iconen omdat ze verdwijnen in het monochroom kleurenschema.
+  
+  Afbeeldingen ter ondersteuning:
+  
 
 
   #### Muis en Toetsenbord 
@@ -94,10 +107,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/light-dark-mode-1.PNG" width="375px" alt=".">
   <img src="readme-images/light-dark-mode-2.PNG" width="375px" alt=".">
   
+  
   Oplossing: 
   Een oplossing is om de huidige modus aan te tonen, i.p.v. de andere modus. Zoals bij YouTube:
+  
   <img src="readme-images/voorbeeld-light-mode-youtube.jpg" width="375px" alt=".">
   <img src="readme-images/voorbeeld-light-mode-edit.jpg" width="375px" alt=".">
+  
+  Door de huidige modus te tonen (in dit geval is dat de light modus), snapt de gebruiker meteen welke modus nu in gebruik is. 
+  
+  Door de rode kleur te gebruiken als call to action, is de button ook makkelijker te vinden.
   
 
 </details>
