@@ -95,6 +95,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/light-dark-mode-2.PNG" width="375px" alt=".">
   
   Oplossing: 
+  Een oplossing is om de huidige modus aan te tonen, i.p.v. de andere modus. Zoals bij YouTube:
+  <img src="readme-images/voorbeeld-light-mode-youtube.jpg" width="375px" alt=".">
+  <img src="readme-images/voorbeeld-light-mode-edit.jpg" width="375px" alt=".">
   
 
 </details>
