@@ -75,8 +75,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Verder moeten de betaalmethodes hun kleur behouden -- de website heeft de iconen zwart-wit gemaakt zodat het in de huisstijl past. 
   Dit kan een prima keuze zijn maar in dit geval miste de gebruiker de herkenning van deze iconen omdat ze verdwijnen in het monochroom kleurenschema.
   
-  Afbeeldingen ter ondersteuning:
+  Afbeelding(en) ter ondersteuning:
   
+  <img src="readme-images/readability.jpg" width="375px" alt=".">
 
 
   #### Muis en Toetsenbord 
