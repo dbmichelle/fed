@@ -85,8 +85,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Dark/light Mode: ✔️
   De website heeft een dark/light modus. De buttons weergeven dit alleen niet helemaal handig.
+  
+  Dit is hoe het momenteel eruit ziet:
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  <img src="readme-images/light-dark-mode-1.PNG" width="375px" alt=".">
+  <img src="readme-images/light-dark-mode-2.PNG" width="375px" alt=".">
+  
 
 </details>
 
