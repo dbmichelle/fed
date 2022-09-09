@@ -78,6 +78,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Afbeelding(en) ter ondersteuning:
   
   <img src="readme-images/readability.jpg" width="375px" alt=".">
+  <img src="readme-images/readability-2.jpg" width="375px" alt=".">
 
 
   #### Muis en Toetsenbord 
