@@ -314,7 +314,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
   1.  https://en.skydance.pl/ (de gebruikte website die ik namaak)
-  2. bron 2
+  2. https://www.youtube.com/ (screenshot van website om de light/dark modus aan te tonen)
   3. ...
 
 </details>
