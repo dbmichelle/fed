@@ -12,7 +12,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Jij
 
-<details open>
+<details>
   <summary> 🌞Details </summary>
 
   ### Auteur:
@@ -82,7 +82,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  
+  Kleurenblindheid: ✔️
+  De website is heel colourblind friendly door het weinige kleurgebruik.
+  
   Dark/light Mode: ✔️
   De website heeft een dark/light modus. De buttons weergeven dit alleen niet helemaal handig.
   
@@ -90,6 +93,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   <img src="readme-images/light-dark-mode-1.PNG" width="375px" alt=".">
   <img src="readme-images/light-dark-mode-2.PNG" width="375px" alt=".">
+  
+  Oplossing: 
   
 
 </details>
