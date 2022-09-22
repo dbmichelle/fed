@@ -33,7 +33,47 @@ button, summary {
 /* jouw code */
 
 body {
-  color:var(--color-text);
-  background-color:var(--color-background);
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    display: grid;
+    place-content: center;
+}
+
+main ul {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(min(20em, 100%), 1fr) );
+    gap: 2em;
+
+    margin: 0;
+    padding: 0 2em 2em;
+    list-style: none;
+}
+
+main li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1.5em 1.5em 0;
+
+}
+
+main h2 {
+    color: white;
+    min-height: 3.125rem;
+    margin: .75rem;
+
+    font-size: 1.375rem;
+    line-height: 1.125em;
+    text-align: center;
+}
+
+main p {
+    color: white;
+    text-align: center;
 }
 
