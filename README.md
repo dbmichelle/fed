@@ -187,7 +187,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - De vragen zijn stapsgewijs doorgenomen.
   - Mijn vragen zijn opgelost d.m.v. een aantal CodePennetjes:
   
-  ####Oplossingen
+  #### Oplossingen
   
   - Er is a.d.h.v CSS en JS een geanimeerde menu gemaakt.
   - De <marquee> tag zorgt ervoor dat mijn tekst zich gedraagt als een soort slideshow.
