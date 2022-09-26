@@ -157,20 +157,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
   
-  ### Groep:
+  #### Groep:
   | Deniz | Michelle | Mike | Quinesha|
   
-  ### Vragen van Deniz:
+  #### Vragen van Deniz:
   - Hoe zet ik tekst bij mijn footer?
   - Hoe maak ik de Amsterdam/Barcelona button?
   - Hoe maak ik de header en main bij mijn About Moco page?
   
-  ### Vragen van Michelle:
+  #### Vragen van Michelle:
   - Hoe maak ik een uitklapbaar menu?
   - Hoe maak je een slideshow van tekst?
   - Hoe zorg ik ervoor min. 2 en max. 4 items op een rij krijg?
   
-  ### Vragen van Mike:
+  #### Vragen van Mike:
   - Hoe maak ik een responsive menu?
   
   #### Vragen van Quinesha:
@@ -183,10 +183,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Iedereen zijn/haar vragen zijn beantwoord.
+  - De vragen zijn stapsgewijs doorgenomen.
+  - Mijn vragen zijn opgelost d.m.v. een aantal CodePennetjes:
+  
+  ####Oplossingen
+  
+  - Er is a.d.h.v CSS en JS een geanimeerde menu gemaakt.
+  - De <marquee> tag zorgt ervoor dat mijn tekst zich gedraagt als een soort slideshow.
+  - Dankzij wat styling kan ik 2/4 items op een rij krijgen door "grid-template-columns: 1fr 1fr;" (of 1fr 1fr 1fr 1fr)
 
 </details>
 
