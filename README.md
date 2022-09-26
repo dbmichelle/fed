@@ -54,7 +54,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details open>
+<details>
   <summary>🌞Details</summary>
 
   ### Bevindingen
@@ -128,7 +128,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 2e werkgroep</summary>
+  <summary>🌞Details</summary>
 
   ### de hele pagina: 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
@@ -148,7 +148,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1e voortgang</summary>
+  <summary>🌞Details</summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -202,7 +202,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2e voortgang</summary>
+  <summary>🌞Details</summary>
 
   ### Stand van zaken
   Ik ben er vorige 
@@ -212,20 +212,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Deniz      | Michelle          | Mike    | Quinesha        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
+  #### Groep:
+  | Britney | Michelle | ??? | ??? |
+  
+  #### Vragen van Michelle:
+  - Hoe maak ik een uitklapbaar menu?
+  - Hoe maak je een slideshow van tekst?
+  - Hoe zorg ik ervoor min. 2 en max. 4 items op een rij krijg?
+  
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Kan ik een class/id gebruiken voor wat images?
+  - Hoe haal ik de witruimte tussen mijn marquee en banner image weg?
+  - Hoe krijg ik streepjes (hr) tussen de stukjes tekst in mijn footer?
+  - Hoe zorg ik dat er een andere afbeelding tevoorschijn komt als ik boven een item hover?
 
 </details>
 
