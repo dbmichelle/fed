@@ -190,8 +190,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Oplossingen
   
   - Er is a.d.h.v CSS en JS een geanimeerde menu gemaakt.
-  - De <marquee> tag zorgt ervoor dat mijn tekst zich gedraagt als een soort slideshow.
-  - Dankzij wat styling kan ik 2/4 items op een rij krijgen door "grid-template-columns: 1fr 1fr;" (of 1fr 1fr 1fr 1fr)
+  - De marquee tag zorgt ervoor dat mijn tekst zich gedraagt als een soort slideshow.
+  - Dankzij wat styling kan ik 2/4 items op een rij krijgen door grid-template-columns.
 
 </details>
 
