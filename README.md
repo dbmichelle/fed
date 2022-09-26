@@ -217,6 +217,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   #### Vragen van Michelle:
   - Kan ik een class/id gebruiken voor wat images?
+  - Hoe haal ik de witruimte tussen h2 en p weg?
   - Hoe haal ik de witruimte tussen mijn marquee en banner image weg?
   - Hoe krijg ik streepjes (hr) tussen de stukjes tekst in mijn footer?
   - Hoe zorg ik dat er een andere afbeelding tevoorschijn komt als ik boven een item hover?
