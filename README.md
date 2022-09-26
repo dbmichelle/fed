@@ -157,23 +157,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
   
-  #Groep:
+  ### Groep:
   | Deniz | Michelle | Mike | Quinesha|
   
-  #Vragen van Deniz:
+  ### Vragen van Deniz:
   - Hoe zet ik tekst bij mijn footer?
   - Hoe maak ik de Amsterdam/Barcelona button?
   - Hoe maak ik de header en main bij mijn About Moco page?
   
-  #Vragen van Michelle:
+  ### Vragen van Michelle:
   - Hoe maak ik een uitklapbaar menu?
   - Hoe maak je een slideshow van tekst?
   - Hoe zorg ik ervoor min. 2 en max. 4 items op een rij krijg?
   
-  #Vragen van Mike:
+  ### Vragen van Mike:
   - Hoe maak ik een responsive menu?
   
-  #Vragen van Quinesha:
+  #### Vragen van Quinesha:
   - Hoe zet ik de pijltjes van mij carousel aan de zijkanten?
   - Hoe zet ik een carousel naast een list?
   - Waarom krijg ik een witte balk wanneer ik naar een kleine scherm ga?
