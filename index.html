@@ -8,12 +8,66 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="shopskydance/favicon.gif">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
+    <script src="javascript.js"></script>
 </head>
 <body>
+    <!--  -->
+    <header>
+        <button aria-label="toggle menu">menu</button>
+        <nav>
+            <ul>
+                <li>
+                    <img src="images/skydance-logo.png"
+                </li>
+                <li>
+                    New in
+                </li>
+                <li>
+                    All products
+                </li>
+                <li>
+                    Clothing
+                </li>
+                <li>
+                    Accessories
+                </li>
+                <li>
+                    Sale
+                </li>
+                <li>
+                    Contact
+                </li>
+                <li>
+                    <button>Light</button>
+                </li>
+                <li>
+                    <!-- vlag iconen zijn van https://unicode.org/emoji/charts/full-emoji-list.html -->
+                    <select>
+                        <option>🇬🇧EN</option>
+                        <option>🇵🇱PL</option>
+                    </select>
+                </li>
+                <li>
+                    <!-- bron: https://freeicons.io/free-mobile-app-icons/search-icon-21476 -->
+                    <img src="images/search-icon.svg" alt="search">
+                </li>
+                <li>
+                    <!-- bron: https://freeicons.io/free-mobile-app-icons/heart-icon-21447 -->
+                    <img src="images/heart-icon.svg" alt="saved items">
+                </li>
+                <li>
+                     <!-- bron: https://freeicons.io/free-mobile-app-icons/user-icon-21489 -->
+                    <img src="images/account-icon.svg" alt="account">
+                </li>
+                <li>
+                    <!-- bron: https://freeicons.io/free-mobile-app-icons/bag-icon-21403 -->
+                    <img src="images/cart-icon.svg" alt="shopping cart">
+                </li>
+            </ul>
+        </nav>
+    </header>
 <main>
-    <nav>
-        <>
-    </nav>
+    <marquee>Small sustainable business</marquee>
     <picture>
          <!-- de <picture> element verandert de <img> wanneer de browser smaller wordt -->
         <source srcset="images/big-banner.png" media="(min-width: 600px)">
@@ -77,6 +131,9 @@
             <img src="images/lingerie.png" alt="lingerie">
         </li>
         <li>
+            <img src="images/shirts.png" alt="shirts">
+        </li>
+        <li>
             <img src="images/skirts.png" alt="skirts">
         </li>
     </ul>
@@ -132,23 +189,38 @@
     <section>
         <h1>Let's keep in touch!</h1>
         <p>subscribe to our newsletter to be the first to know about new arrivals, sales and more! <3</p>
+        <form>
+
+        </form>
     </section>
 </main>
 <footer>
     <ul>
         <li>
-            <img src="images/facebook-icon-white.svg" alt="facebook">
+            <img src="images/facebook-icon-black.svg" alt="facebook">
         </li>
         <li>
-            <img src="images/ig_icon_white.svg" alt="instagram">
+            <img src="images/ig_icon_black.svg" alt="instagram">
         </li>
         <li>
-            <img src="images/pinterest-icon-white.svg" alt="pinterest">
+            <img src="images/pinterest-icon-black.svg" alt="pinterest">
         </li>
         <li>
             <img src="images/tiktok-icon-white.svg" alt="tiktok">
         </li>
     </ul>
+    <section>
+        <h3>Free shipping</h3>
+        <p>free EU delivery on orders over €150</p>
+    </section>
+    <section>
+        <h3>Small Polish business</h3>
+        <p>we create our items ethically in Poland</p>
+    </section>
+    <section>
+        <h3>Easy returns</h3>
+        <p>up to 14 days</p>
+    </section>
 </footer>
 </body>
 </html>
