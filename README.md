@@ -155,7 +155,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  Iedereen heeft wat vragen bedacht die zij willen stellen.
   
   #### Groep:
   | Deniz | Michelle | Mike | Quinesha|
@@ -210,23 +210,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  Iedereen heeft wat vragen bedacht die zij willen stellen.
 
   #### Groep:
   | Britney | Michelle | ??? | ??? |
   
   #### Vragen van Michelle:
-  - Hoe maak ik een uitklapbaar menu?
-  - Hoe maak je een slideshow van tekst?
-  - Hoe zorg ik ervoor min. 2 en max. 4 items op een rij krijg?
-  
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
   - Kan ik een class/id gebruiken voor wat images?
   - Hoe haal ik de witruimte tussen mijn marquee en banner image weg?
   - Hoe krijg ik streepjes (hr) tussen de stukjes tekst in mijn footer?
   - Hoe zorg ik dat er een andere afbeelding tevoorschijn komt als ik boven een item hover?
+  
+  ### Verslag van meeting
+  hier na afloop snel de uitkomsten van de meeting vastleggen
 
 </details>
 
