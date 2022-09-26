@@ -157,8 +157,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
+  | Deniz     | Michelle          | Mike    | Quinesha       |
+  | Vraag: Hoe zet ik tekst bij mijn footer? | Vraag: Hoe maak ik een uitklapbaar menu?| Hoe zet ik de pijltjes van mijn carousel aan de zijkanten?| ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
