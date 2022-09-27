@@ -213,14 +213,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Iedereen heeft wat vragen bedacht die zij willen stellen.
 
   #### Groep:
-  | Britney | Michelle | ??? | ??? |
+  | Britney | Michelle | Rosalie | Tijme |
+  
+  #### Vragen van Britney:
+  - Kan ik een class/id gebruiken voor tekst?
+  - In hoeverre moet ik het uitwerken?
   
   #### Vragen van Michelle:
   - Kan ik een class/id gebruiken voor wat images en tekst?
-  - Hoe haal ik de witruimte tussen h2 en p weg?
   - Hoe haal ik de witruimte tussen mijn marquee en banner image weg?
   - Hoe krijg ik streepjes (hr) tussen de stukjes tekst in mijn footer?
   - Hoe zorg ik dat er een andere afbeelding tevoorschijn komt als ik boven een item hover?
+  
+  #### Vragen van Rosalie
+  - Hulp bij dark mode
+  - Hoe kom ik aan de background image?
+  
+  #### Vragen van Tijme 
+  - Hoe zet ik mijn vakjes in het midden?
+  
+  
+  
+  
   
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
