@@ -248,33 +248,40 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
-  <summary>uitwerken na test in 8e werkgroep</summary>
+  <summary>🌞Details</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - De website is best goed te navigeren bij concentratieproblemen: de afbeeldingen zijn informatief genoeg.
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  - Niet elke image heeft een alt tekst.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Oplossing:
+  - Een alt="" plaatsen bij elke afbeelding.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  - Kan niet tabben door de website: hij pakt alleen het e-mail veldje.
+  - Er kan wel op de originele website getabd worden (ook Enter werkt).
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Oplossing:
+  - De <h1>tjes vervangen met <a href>'s.
+  - 
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  - 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  - De readability van de tekst is goed bij wazigheid als de letters wat vergroot worden.
+  - Kleurenblindheid is geen probleem omdat de website grotendeels monochroom is.
+  - Ook in zwart-wit is het contrast duidelijk genoeg.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  
 
 </details>
 
