@@ -300,13 +300,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+ 
+  #### Groep:
+  | Deniz | Michelle | Mike | Quinesha|
+  
+  #### Vragen van Deniz:
+  - Hoe fix ik mijn header?
+  - Hoe zet ik zo'n lijn bij mijn footer?
+  - Hoe maak ik de cookies button?
+  
+  #### Vragen van Michelle:
+  - Hoe zorg ik ervoor dat teksten niet over mijn sticky header floaten?
+  - 
+  - 
+  
+  #### Vragen van Mike:
+  - Hoe maak ik een responsive menu?
+  
+  #### Vragen van Quinesha:
+  - Hoe zet ik de pijltjes van mij carousel aan de zijkanten?
+  - Hoe zet ik een carousel naast een list?
+  - Waarom krijg ik een witte balk wanneer ik naar een kleine scherm ga?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
