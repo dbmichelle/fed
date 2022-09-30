@@ -314,10 +314,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - 
   
   #### Vragen van Mike:
-  - 
+  - Hoe maak ik een automatische image carousel?
   
   #### Vragen van Quinesha:
   - Hoe plaats ik een button het beste op een specifieke plek?
+  - Hoe maak ik/plaats ik een cirkel met een icoon erin?
+  - Hoe zorg ik dat een plaatje alleen aan de bovenkant een button overlapt?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
