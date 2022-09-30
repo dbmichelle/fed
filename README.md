@@ -312,15 +312,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Vragen van Michelle:
   - Hoe zorg ik ervoor dat teksten niet over mijn sticky header floaten?
   - 
-  - 
   
   #### Vragen van Mike:
-  - Hoe maak ik een responsive menu?
+  - 
   
   #### Vragen van Quinesha:
-  - Hoe zet ik de pijltjes van mij carousel aan de zijkanten?
-  - Hoe zet ik een carousel naast een list?
-  - Waarom krijg ik een witte balk wanneer ik naar een kleine scherm ga?
+  - Hoe plaats ik een button het beste op een specifieke plek?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
