@@ -86,9 +86,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Toetsenbord: De site is makkelijk te navigeren a.d.h.v. Tab & Enter.
 
 
   #### Motoriek (shocks, elastiekjes)
