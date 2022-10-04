@@ -23,6 +23,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Je focus:
   Het liefste allebei, maar voor nu de surface plane
+  
+  ####Surface plane checklist
+  - Advanced positioning (sticky header + z-index)
+  - Dark/light mode
  
 </details>
 
