@@ -153,14 +153,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>🌞Details</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  (Dit is eigenlijk voortgangsgesprek 2, week 3, maar ik heb de eerste gemist.)
 
 
   ### Agenda voor meeting
   Iedereen heeft wat vragen bedacht die zij willen stellen.
   
   #### Groep:
-  | Deniz | Michelle | Mike | Quinesha|
+  | Deniz | Michelle | Mike | Quinesha |
   
   #### Vragen van Deniz:
   - Hoe zet ik tekst bij mijn footer?
@@ -207,8 +207,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>🌞Details</summary>
 
   ### Stand van zaken
-  Ik ben er vorige 
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik was helaas afwezig bij de eerste voortgangsgesprek, dus deze haal ik vandaag in met Britney, Rosalie en Tijme.
+  Omdat ik een beetje een achterstand opliep, had ik aardig wat vragen tijdens dit gesprek.
 
 
   ### Agenda voor meeting
@@ -239,7 +239,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Alle vragen zijn beantwoord en iedereen kan verder aan hun websites.
+  Ik had veel vragen en deze zijn logisch opgelost. Heel veel bleek uiteindelijk minder moeilijk te zijn dan gedacht.
 
 </details>
 
@@ -297,14 +298,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>🌞Details</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik was momenteel redelijk goed op weg, maar ik had ruzie met de tekst van mijn marquee.
+  Deze bleef over alles heen floaten, met name mijn header.
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  Iedereen heeft wat vragen bedacht die zij willen stellen.
  
   #### Groep:
-  | Deniz | Michelle | Mike | Quinesha|
+  | Deniz | Michelle | Mike | Quinesha |
   
   #### Vragen van Deniz:
   - Hoe fix ik mijn header?
@@ -313,7 +315,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   #### Vragen van Michelle:
   - Hoe zorg ik ervoor dat teksten niet over mijn sticky header floaten?
-  - 
   
   #### Vragen van Mike:
   - Hoe maak ik een automatische image carousel?
@@ -324,12 +325,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Hoe zorg ik dat een plaatje alleen aan de bovenkant een button overlapt?
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  Alle vragen zijn beantwoord en iedereen kan verder aan hun websites.
+  Mijn probleem met mijn header was makkelijk op te lossen d.m.v. "z-index: 2" toe te voegen.
 
 </details>
 
@@ -352,13 +349,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Het was heel moeilijk en frustrerend maar het is me gelukt om de menu/nav te maken die ik wilde. Het is (aardig) responsive en hij werkt, dus ik ben blij genoeg ondanks dat het netter kan.
 
-  <img src="readme-images/screenshot_1.png" width="375px" alt="top">
+  <img src="readme-images/screenshot_2.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Het was lastig om beide pagina's op tijd af te hebben, en toen ik eindelijk aan mijn 2e pagina kon beginnen vond ik hem eigenlijk een beetje complex, helemaal met hoe weinig tijd ik nog over had. Met name gaat het om de image carousel, die ook nog aan de onderkant een soort mini galerij heeft van de andere images.
 
-  <img src="readme-images/screenshot_2.png" width="375px" alt="yikes">
+  <img src="readme-images/screenshot_1.png" width="375px" alt="yikes">
 </details>
 
 
