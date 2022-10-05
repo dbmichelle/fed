@@ -347,15 +347,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Het was heel moeilijk en frustrerend maar het is me gelukt om de menu/nav te maken die ik wilde. Het is (aardig) responsive en hij werkt, dus ik ben blij genoeg ondanks dat het netter kan.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/screenshot-1.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het was lastig om beide pagina's op tijd af te hebben, en toen ik eindelijk aan mijn 2e pagina kon beginnen vond ik hem eigenlijk een beetje complex, helemaal met hoe weinig tijd ik nog over had. Met name gaat het om de image carousel, die ook nog aan de onderkant een soort mini galerij heeft van de andere images.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/screenshot-2.png" width="375px" alt="yikes">
 </details>
 
 
