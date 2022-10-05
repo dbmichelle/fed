@@ -371,6 +371,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1.  https://en.skydance.pl/ (de gebruikte website die ik namaak)
   2. https://www.youtube.com/ (screenshot van website om de light/dark modus aan te tonen)
-  3. ...
+  3. Iconen betaalmethoden
+    Betaalmethodes afbeeldingen komen allemaal van commons.wikimedia.org/wikipedia;
+    https://commons.wikimedia.org/wiki/File:PayU.svg
+    https://commons.wikimedia.org/wiki/File:Visa_Inc._logo.svg
+    https://commons.wikimedia.org/wiki/File:Mastercard_2019_logo.svg
+    https://en.wikipedia.org/wiki/Blik#/media/File:Blik_logo.svg
+    https://nl.wikipedia.org/wiki/Bestand:PayPal_logo.svg-->
 
 </details>
