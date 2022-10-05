@@ -1,0 +1,460 @@
+:root {
+    --color-background: #f9f9f9;
+    --color-border: #cacfd5;
+    --color-header: #1b1c1e;
+    --color-text-default: #1b1c1e;
+    --color-text-header: #f9f9f9;
+    --color-base: #f4f5f6;
+    --color-accent: #ba0d37; 
+
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Simpele CSS Remedy */
+/* naar een idee van Jen Simmons */
+/* https://github.com/jensimmons/cssremedy */
+*, *::after, *::before {
+    box-sizing:border-box;  
+}
+
+button:not(disabled) {
+    cursor:pointer;
+}  
+    
+/********************/
+/* ALGEMENE STIJLEN */
+/********************/
+  body {
+    margin:0;
+    background-color:var(--general-background);
+    color:var(--general-color);
+}
+  
+/******************************************************/
+/* styling voor de small-screen versie van de website */
+/******************************************************/
+  
+/*************/
+/* DE HEADER */
+/*************/
+header {
+    min-height:4em;
+    padding:0 1em;
+    background-color:var(--color-header);
+    line-height:1;
+    
+    /* JOUW CODE HIER - stap 3 */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+    position:sticky;
+    top:0;
+    z-index: 2;
+}
+
+
+/* alle links in de header */
+header a {
+    padding:.5em 0;
+    color:var(--color-text-header);
+    text-decoration:none;
+}
+  
+/********/
+/* LOGO */
+/********/
+header > a:first-of-type {
+    /* om het boek en de titel te positioneren */
+    display:grid;
+    grid-template-columns:min-content min-content;
+    grid-gap:.25em;
+    align-items:center;
+    
+    font-weight:bold; 
+}
+  
+header > a:first-of-type img {
+    height: 2.5em;
+    padding-left: 5em;
+}
+  
+/*SHOPPING CART ICON*/  
+
+header > a:last-of-type img {
+    width: auto;
+    height: 1.5em;
+    padding-right: 2em;
+}
+  
+/*****************/
+/* BEIDE BUTTONS */
+/*****************/
+header button {
+    padding:.5em;
+    
+    /* icon en tekst met gap-je naast elkaar */
+    display:flex;
+    align-items:center;
+    gap:.25em;
+    
+    /* standaard styling aanpassen */
+    appearance:none;
+    background-color:var(--button-background);
+    border:none;
+    border-radius:.25em; 
+    font:inherit;
+    text-align:center;
+    color:var(--button-color);
+}
+  
+  header button img {
+    height:1em;
+  }
+  
+  
+  /***************/
+  /* MENU BUTTON */
+  /***************/
+  header > button {
+    /* JOUW CODE HIER - stap 3 */
+    order:-1;
+  }
+  
+
+  /***************/
+  /* SLUIT BUTTON */
+  /***************/
+  nav button {
+   justify-self:start;
+  }
+  
+  /************/
+  /* HET MENU */
+  /************/
+  nav {
+    padding:1em;
+    
+    display:grid;
+    align-content:start;
+    gap:1em;
+    
+    background-image:var(--menu-gradient);
+    
+    /* JOUW CODE HIER - stap 1 */
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    
+    /* JOUW CODE HIER - stap 2 */
+    transform:translatex(-100%);
+    
+    /* JOUW CODE HIER - stap 4 */
+    transition:transform .3s;
+  }
+  
+  /* als menu open is */
+  nav.toonMenu {
+    /* JOUW CODE HIER - stap 4 */
+    transform:translatex(0);
+  }
+  
+  /*******************/
+  /* LIJST MET LINKS */
+  /*******************/
+  nav ul { 
+    margin:0; 
+    padding:0em;
+    list-style:none;
+  }
+  
+  
+  
+  /************************/
+  /* EEN LINK IN DE LIJST */
+  /************************/
+  nav a {
+    /* icon en tekst met gap-je naast elkaar */
+    display:flex;
+    align-items:center;
+    column-gap:.25em;
+    
+    border-bottom:solid 1px var(--menu-border);
+  }
+  
+  nav a img {
+    width:auto;
+    height:2em;
+  }
+  
+  nav a.active {
+    font-weight:bold;
+  }
+  
+  
+  
+  /****************************************************************/
+  /* styling voor de header als de browser minimaal 38em breed is */
+  /****************************************************************/
+  @media (min-width:38em) {
+    header > button {
+      /* JOUW CODE HIER - stap 6 */
+      display:none;
+    }
+    
+    nav {
+      /* JOUW CODE HIER - stap 7 */
+      position:static;
+      transform:none;
+      padding:0;
+      
+      background:none;
+    }
+    
+    nav button {
+      /* JOUW CODE HIER - stap 6 */
+      display:none;
+    }
+    
+    nav ul {
+      /* JOUW CODE HIER - stap 8 */
+      display:flex;
+      gap:2em;
+    }
+    
+    nav a {
+      /* JOUW CODE HIER - stap 9 */
+      flex-direction:column;
+      
+      border:none;
+    }
+    
+    header > a:last-of-type {
+      /* JOUW CODE HIER - stap 9 */
+      flex-direction:column;
+    }
+  }
+  
+  
+  
+  
+  
+  /****************************************************************/
+  /* styling voor de header als de browser minimaal 57em breed is */
+  /****************************************************************/
+  @media (min-width:57em) {
+    header > a:last-of-type,
+    nav a {
+      /* JOUW CODE HIER - stap 10 */
+      flex-direction:row;
+    }
+  }
+  
+  
+  
+  
+  
+  /***********/
+  /* CONTENT */
+  /***********/
+  
+  main h1,
+  main p {
+    max-width:40rem;
+    margin:0 auto;
+    line-height:1.75;
+  }
+  
+  main h1 {
+    padding:5vw 2.5vw 0;
+    
+    background-image:var(--title-gradient);
+    -webkit-background-clip:text;
+    background-clip:text;
+  }
+  
+  main p {
+    padding:0 2.5vw 2.5vw;
+}
+
+/* UL SETTINGS
+voor elke unordered list */
+
+ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+
+    display: grid;
+    gap: 1em;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+}
+
+/* H'TJES, P'TJES EN ANDERE TEKST CSS */
+
+h1 {
+    color: #1b1c1e;
+    font-size: 1.5em;
+    line-height: 3rem;
+
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+
+    cursor:pointer;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.9375rem;
+    
+    cursor:pointer;
+}
+
+p {
+    color: #1b1c1e;
+    text-align: center;
+    margin: 0;
+
+    cursor:pointer;
+}
+
+/* SECTION CAROUSEL */
+section {
+	position:relative;	
+}
+
+section button {
+	font:inherit;
+	position:absolute;
+	bottom:10em;
+	transform:translateY(50%);
+
+    background-color: #1b1c1e;
+    color: #f9f9f9;
+
+    border:none;
+    border-radius:.25em; 
+}
+
+section button:nth-of-type(1) {
+	left:0;
+    margin-bottom: 4em;
+}
+
+section button:nth-of-type(2) {
+	right:0;
+    margin-bottom: 4em;
+}
+
+section>ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	
+	display:flex;
+	overflow:auto;
+}
+
+section>ul img {
+	width:20em;
+	display:block;
+}
+
+/* FOOTER */
+
+footer {
+    padding-bottom: 1em;
+}
+
+footer>p:last-of-type {
+    font-size: 14px;
+}
+
+footer ul {
+    list-style: none;
+    align-items: center;
+    padding: 2em;
+}
+
+footer ul a {
+    text-decoration: none;
+    text-align: center;
+    color: #1b1c1e;
+}
+
+footer ul a:hover {
+    text-decoration: underline;
+}
+
+footer ul:nth-of-type(1) img {
+    width: auto;
+    max-width: 50px;
+
+    padding-right: 1rem;
+}
+
+footer ul:nth-of-type(1) img {
+    max-width: 500px;
+}
+
+footer>ul:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+
+    gap: 2em;
+}
+
+footer ul:nth-of-type(5) img {
+    max-width: 50px;
+}
+
+footer>ul:nth-of-type(5) {
+    display: flex;
+    justify-content: center;
+
+    gap: 2em;
+}
+
+section {
+    background-color: #F9F9F9;
+    padding: 1em 1em 1em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+footer>section>img {
+    max-width: 100px;
+}
+
+footer ul:nth-of-type(2) li:nth-of-type(1) {
+    border-style:solid;
+	border-color:#cacfd5;
+	border-width:2px 0 0;
+}
+
+footer ul:nth-of-type(2) li:nth-of-type(2) {
+    border-style:solid;
+	border-color:#cacfd5;
+	border-width:2px 0 0;
+}
+
+footer ul:nth-of-type(2) li:nth-of-type(3) {
+    border-style:solid;
+	border-color:#cacfd5;
+	border-width:2px 0 2px;
+
+    padding-bottom: 1em;
+}
