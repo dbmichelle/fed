@@ -378,5 +378,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     https://commons.wikimedia.org/wiki/File:Mastercard_2019_logo.svg
     https://en.wikipedia.org/wiki/Blik#/media/File:Blik_logo.svg
     https://nl.wikipedia.org/wiki/Bestand:PayPal_logo.svg-->
-
+  4. https://codepen.io/shooft/pen/BaxwrWa (mijn header)
+  5. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee (marquee)
 </details>
