@@ -2,12 +2,32 @@
     --color-background: #f9f9f9;
     --color-border: #cacfd5;
     --color-header: #1b1c1e;
+    --color-button: #1b1c1e;
+    --color-button-hover: #781818;
+    --button-hover-text: #f9f9f9;
     --color-text-default: #1b1c1e;
     --color-text-header: #f9f9f9;
     --color-base: #f4f5f6;
-    --color-accent: #ba0d37; 
 
     font-family: 'Mulish', sans-serif;
+}
+
+/* DARK MODE */
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-background: #1b1c1e;
+        --color-border: #141414;
+        --color-header: #1b1c1e;
+        --color-button: #f9f9f9;
+        --color-button-hover: #781818;
+        --button-hover-text: #f9f9f9;
+        --color-text-default: #1b1c1e;
+        --color-text-header: #f9f9f9;
+        --color-base: #f4f5f6;
+    
+        font-family: 'Mulish', sans-serif;
+    }    
 }
 
 /* Simpele CSS Remedy */
@@ -58,7 +78,9 @@ header {
 header a {
     padding:.5em 0;
     color:var(--color-text-header);
+    
     text-decoration:none;
+    text-transform: uppercase;
 }
   
 /********/
@@ -304,7 +326,6 @@ h1 {
     line-height: 3rem;
 
     display: grid;
-    place-content: center;
     text-transform: uppercase;
 }
 
@@ -325,18 +346,17 @@ h3 {
 
 p {
     color: #1b1c1e;
-    text-align: center;
     margin: 0;
 
     cursor:pointer;
 }
 
 /* SECTION CAROUSEL */
-section {
+section:nth-of-type(1) {
 	position:relative;	
 }
 
-section button {
+section:nth-of-type(1) button {
 	font:inherit;
 	position:absolute;
 	bottom:10em;
@@ -349,12 +369,12 @@ section button {
     border-radius:.25em; 
 }
 
-section button:nth-of-type(1) {
+section:nth-of-type(1) button:nth-of-type(1) {
 	left:0;
     margin-bottom: 4em;
 }
 
-section button:nth-of-type(2) {
+section:nth-of-type(1) button:nth-of-type(2) {
 	right:0;
     margin-bottom: 4em;
 }
@@ -371,6 +391,38 @@ section>ul {
 section>ul img {
 	width:20em;
 	display:block;
+}
+
+/* SECTION 2 */
+
+section:nth-of-type(2) ul {
+    justify-content: center;
+}
+
+section:nth-of-type(2) h2 {
+    font-size: 1.5em;
+}
+
+section:nth-of-type(2) button {
+    background-color: var(--color-button);
+    border-color: var(--color-button);
+    border-radius: 15%;
+    border-style: solid;
+    
+    min-width: 3rem;
+    min-height: 3rem;
+
+    font-size: 1.2em;
+    color: var(--color-base);
+
+    transition:transform.0.4s;
+    
+}
+
+section:nth-of-type(2) button:hover {
+    background-color: var(--color-button-hover);
+    border-color: var(--color-button-hover);
+    color: var(--button-hover-text);
 }
 
 /* FOOTER */
@@ -457,4 +509,8 @@ footer ul:nth-of-type(2) li:nth-of-type(3) {
 	border-width:2px 0 2px;
 
     padding-bottom: 1em;
+}
+
+footer p {
+    text-align: center;
 }
