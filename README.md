@@ -26,6 +26,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   ####Surface plane checklist
   - Advanced positioning (sticky header + z-index)
+  - Hovering animation
   - Dark/light mode
  
 </details>
@@ -268,22 +269,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Er kan wel op de originele website getabd worden (ook Enter werkt).
 
   Oplossing:
-  - De <h1>tjes vervangen met <a href>'s.
-  - 
+  - De h1-tjes vervangen met "a href's".
 
 
   #### Motoriek (shocks, elastiekjes)
-  - 
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  - Niet getest.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   - De readability van de tekst is goed bij wazigheid als de letters wat vergroot worden.
   - Kleurenblindheid is geen probleem omdat de website grotendeels monochroom is.
   - Ook in zwart-wit is het contrast duidelijk genoeg.
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
   
 
 </details>
