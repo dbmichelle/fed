@@ -7,220 +7,313 @@
     <title>SKYDANCE</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="shopskydance/favicon.gif">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
-    <script src="javascript.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--  -->
     <header>
-        <button aria-label="toggle menu">menu</button>
+        <!-- Gemaakt met behulp van deze CodePen: https://codepen.io/shooft/pen/BaxwrWa -->
+        <!-- En (forked versie) https://codepen.io/michelledb/pen/jOxKmoL-->
+        <!-- het logo -->
+        <a href="#">
+          <img src="images/skydance-logo.png" alt="skydance logo"/>
+        </a>
+        
+        <!-- Button is niet relevant voor de screenreader, dus verbergen we deze met hidden=true -->
+        <button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-hamburger.svg" alt="open menu" /></button>
+        
+        
+        <!--  het menu -->
         <nav>
+          <!-- de sluit button -->
+          <button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-cross.svg" alt="close menu" /></button>
+          <ul>
+            <li><a class="active"> New in</a></li>
+            <li><a href="#"> All products</a></li>
+            <li><a href="#"> Clothing</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#"> Sale</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="#"><img aria-hidden="true" src="images/cart-icon.svg" /></a>
+      </header>
+    <!--HEADER END / MAIN START -->
+    <main>
+        <!-- MARQUEE -->
+        <!-- Marquees zijn verouderd maar in deze instantie mocht ik hem wel gebruiken. -->
+        <!-- Een goed alternatief is een Cross Browser Marquee: dit wordt gedaan d.m.v. JavaScript. -->
+        <!-- Bron marquee: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee -->
+        <!-- Bron Cross Browser marquee: http://www.dynamicdrive.com/dynamicindex2/cmarquee.htm -->
+        <marquee>Small sustainable business</marquee>
+        <!-- PICTURE 1 -->
+        <!-- De <picture> element verandert de image wanneer de browser smaller wordt. -->
+            <picture>
+               <source srcset="images/big-banner.png" media="(min-width: 600px)">
+               <img src="images/small-banner.png">
+           </picture>
+        <!-- SECTION 1 -->
+        <!-- Hier worden de nieuwe producten getoond, dit zijn 8 li's. -->
+        <section>
+            <h1>
+                SEE WHAT'S NEW
+            </h1>
             <ul>
                 <li>
-                    <img src="images/skydance-logo.png"
+                    <a href="product.html"><img src="images/pink-tennis-skirt.png" alt="a dusty pink tennis skirt worn by a model."></a>
+                    <h2>Dusty pink tennis belt skirt</p>
+                    <p>€28,00 EUR</p>
                 </li>
                 <li>
-                    New in
+                    <img src="images/eden-straight-leg-jeans.png" alt="straight, black leg jeans worn by a model.">
+                    <h2>Eden straight leg jeans</h2>
+                    <p>€87,00 EUR</p>
                 </li>
                 <li>
-                    All products
+                    <img src="images/gaia-slit-lace-skirt.png" alt="a black, slit skirt with white lace.">
+                    <h2>Gaia slit lace skirt</h2>
+                    <p>€34,00 EUR</p>
                 </li>
                 <li>
-                    Clothing
+                    <img src="images/tall-grid-tennis-skirt.png" alt="a grid-patterned tennis skirt for taller models.">
+                    <h2>Tall grid tennis belt skirt with lace trim</h2>
+                    <p>€44,00 EUR</p>
                 </li>
                 <li>
-                    Accessories
+                    <img src="images/sinister-straight-leg.png" alt="straight leg jeans with a heart-shaped spiderweb embroidered on the right thigh.">
+                    <h2>Sinister straight leg embroidered jeans</h2>
+                    <p>€89,00 EUR</p>
                 </li>
                 <li>
-                    Sale
+                    <img src="images/astrid-embroidered-shirt.png" alt="a black shirt with embroidered moons on the collar.">
+                    <h2>Astrid embroidered shirt</h2>
+                    <p>€55,00 EUR</p>
                 </li>
                 <li>
-                    Contact
+                    <img src="images/morbid-shorts.png" alt="black shorts with a heart-shaped spiderweb on the bottom.">
+                    <h2>Morbid embroidered shorts</h2>
+                    <p>€30,00 EUR</p>
                 </li>
                 <li>
-                    <button>Light</button>
-                </li>
-                <li>
-                    <!-- vlag iconen zijn van https://unicode.org/emoji/charts/full-emoji-list.html -->
-                    <select>
-                        <option>🇬🇧EN</option>
-                        <option>🇵🇱PL</option>
-                    </select>
-                </li>
-                <li>
-                    <!-- bron: https://freeicons.io/free-mobile-app-icons/search-icon-21476 -->
-                    <img src="images/search-icon.svg" alt="search">
-                </li>
-                <li>
-                    <!-- bron: https://freeicons.io/free-mobile-app-icons/heart-icon-21447 -->
-                    <img src="images/heart-icon.svg" alt="saved items">
-                </li>
-                <li>
-                     <!-- bron: https://freeicons.io/free-mobile-app-icons/user-icon-21489 -->
-                    <img src="images/account-icon.svg" alt="account">
-                </li>
-                <li>
-                    <!-- bron: https://freeicons.io/free-mobile-app-icons/bag-icon-21403 -->
-                    <img src="images/cart-icon.svg" alt="shopping cart">
+                    <img src="images/moon-cult-crop-top.png" alt="a black, spaghetti-strap crop top with the moon's phases on the front.">
+                    <h2>Moon cult embroidered crop top</h2>
+                    <p>€26,00 EUR</p>
                 </li>
             </ul>
-        </nav>
-    </header>
-<main>
-    <marquee>Small sustainable business</marquee>
-    <picture>
-         <!-- de <picture> element verandert de <img> wanneer de browser smaller wordt -->
-        <source srcset="images/big-banner.png" media="(min-width: 600px)">
-        <img src="images/small-banner.png">
-        <!-- bron: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture -->
-    </picture>
-    <h1>
-        SEE WHAT'S NEW
-    </h1>
-    <ul>
-        <li>
-            <img src="images/pink-tennis-skirt.png" alt="">
-            <h2>Dusty pink tennis belt skirt</h2>
-            <p>€28,00 EUR</p>
-        </li>
-        <li>
-            <img src="images/eden-straight-leg-jeans.png" alt="">
-            <h2>Eden straight leg jeans</h2>
-            <p>€87,00 EUR</p>
-        </li>
-        <li>
-            <img src="images/gaia-slit-lace-skirt.png" alt="">
-            <h2>Gaia slit lace skirt</h2>
-            <p>€34,00 EUR</p>
-        </li>
-        <li>
-            <img src="images/tall-grid-tennis-skirt.png" alt="">
-            <h2>Tall grid tennis belt skirt with lace trim</h2>
-            <p>€44,00 EUR</p>
-        </li>
-        <li>
-            <img src="images/sinister-straight-leg.png" alt="">
-            <h2>Sinister straight leg embroidered jeans</h2>
-            <p>€89,00 EUR</p>
-        </li>
-        <li>
-            <img src="images/astrid-embroidered-shirt.png" alt="">
-            <h2>Astrid embroidered shirt</h2>
-            <p>€55,00 EUR</p>
-        </li>
-        <li>
-            <img src="images/morbid-shorts.png" alt="">
-            <h2>Morbid embroidered shorts</h2>
-            <p>€30,00 EUR</p>
-        </li>
-        <li>
-            <img src="images/moon-cult-crop-top.png" alt="">
-            <h2>Moon cult embroidered crop top</h2>
-            <p>€26,00 EUR</p>
-        </li>
-    </ul>
-    <picture>
-        <source srcset="images/big-banner-2.png" media="(min-width: 600px)">
-        <img src="images/small-banner-2.png">
-    </picture>
-    <ul>
-        <li>
-            <img src="images/hoodies.png" alt="hoodies">
-        </li>
-        <li>
-            <img src="images/lingerie.png" alt="lingerie">
-        </li>
-        <li>
-            <img src="images/shirts.png" alt="shirts">
-        </li>
-        <li>
-            <img src="images/skirts.png" alt="skirts">
-        </li>
-    </ul>
-    <picture>
-        <source srcset="images/big-banner-3.png" media="(min-width: 600px)">
-        <img src="images/small-banner-3.png">
-    </picture>
-    <h1>
-        Get them before they're gone forever!
-    </h1>
-    <ul>
-        <li>
-            <img src="images/thorn-heart-cardigan.png" alt="">
-            <h2>Thorn heart embroidered cardigan</h2>
-            <p>€28,00EUR €35,00 EUR</p>
-        </li>
-        <li>
-            <img src="images/violet-clash-sweat-shorts.png" alt="">
-            <h2>Violet clash organic cotton sweat shorts</h2>
-            <p>€20,00 EUR €29,00 EUR</p>
-        </li>
-        <li>
-            <img src="images/heaven-to-touch-longsleeve.png" alt="">
-            <h2>Heaven to touch longsleeve</h2>
-            <p>€18,00 EUR €26,00 EUR</p>
-        </li>
-        <li>
-            <img src="images/velvet-midi-skirt.png" alt="">
-            <h2>Velvet midi skirt with eyelets</h2>
-            <p>€7,00 EUR €14,00 EUR</p>
-        </li>
-        <li>
-            <img src="images/purple-webbing-belt.png" alt="">
-            <h2>Purple webbing belt</h2>
-            <p>€8,00 EUR €12,00 EUR</p>
-        </li>
-        <li>
-            <img src="images/vultures-double-chain.png" alt="">
-            <h2>Vultures double chain with ring</h2>
-            <p>€7,00 EUR €12,50 EUR</p>
-        </li>
-        <li>
-            <img src="images/nymph-crop-top.png" alt="">
-            <h2>Nymph organic cotton crop top</h2>
-            <p>€14,00 EUR €20,00 EUR</p>
-        </li>
-        <li>
-            <img src="images/karma-velvet-harness.png" alt="">
-            <h2>Karma velvet harness</h2>
-            <p>€22,00 EUR €25,00 EUR</p>
-        </li>
-    </ul>
-    <section>
-        <h1>Let's keep in touch!</h1>
-        <p>subscribe to our newsletter to be the first to know about new arrivals, sales and more! <3</p>
-        <form>
-
-        </form>
-    </section>
-</main>
-<footer>
-    <ul>
-        <li>
-            <img src="images/facebook-icon-black.svg" alt="facebook">
-        </li>
-        <li>
-            <img src="images/ig_icon_black.svg" alt="instagram">
-        </li>
-        <li>
-            <img src="images/pinterest-icon-black.svg" alt="pinterest">
-        </li>
-        <li>
-            <img src="images/tiktok-icon-white.svg" alt="tiktok">
-        </li>
-    </ul>
-    <section>
-        <h3>Free shipping</h3>
-        <p>free EU delivery on orders over €150</p>
-    </section>
-    <section>
-        <h3>Small Polish business</h3>
-        <p>we create our items ethically in Poland</p>
-    </section>
-    <section>
-        <h3>Easy returns</h3>
-        <p>up to 14 days</p>
-    </section>
-</footer>
+            </section>
+            <!-- PICTURE 2 -->
+            <!-- In deze tag bevindt zich de tweede banner image. -->
+            <section>
+                <picture>
+                    <source srcset="images/big-banner-2.png" media="(min-width: 600px)">
+                    <img src="images/small-banner-2.png">
+                </picture>
+            </section>
+            <!-- SECTION 2 -->
+            <!-- In deze section zitten 4 images met allen een alt beschrijving. -->
+            <section>
+                <ul>
+                    <li>
+                        <img src="images/hoodies.png" alt="hoodies">
+                    </li>
+                    <li>
+                        <img src="images/lingerie.png" alt="lingerie">
+                    </li>
+                    <li>
+                        <img src="images/shirts.png" alt="shirts">
+                    </li>
+                    <li>
+                        <img src="images/skirts.png" alt="skirts">
+                    </li>
+                </ul>
+            </section>
+            <!-- PICTURE 3 -->
+            <!-- In deze tag bevindt zich de derde (en laatste) banner image. -->
+            <picture>
+                <source srcset="images/big-banner-3.png" media="(min-width: 600px)">
+                <img src="images/small-banner-3.png">
+            </picture>
+            <!-- SECTION 3 -->
+            <!-- Hier zijn alle items die momenteel in de uitverkoop zijn. -->
+            <section>
+                <h1>
+                    Get them before they're gone forever!
+                </h1>
+                <ul>
+                    <li>
+                        <img src="images/thorn-heart-cardigan.png" alt="a black cardigan with a thorn heart embroidered on the chest.">
+                        <h2>Thorn heart embroidered cardigan</h2>
+                        <p><em>€28,00EUR</em> <s>€35,00 EUR</s></p>
+                    </li>
+                    <li>
+                        <img src="images/violet-clash-sweat-shorts.png" alt="cotton sweat shorts with one violet leg, and one black leg.">
+                        <h2>Violet clash organic cotton sweat shorts</h2>
+                        <p><em>€20,00 EUR</em> <s>€29,00 EUR</s></p>
+                    </li>
+                    <li>
+                        <img src="images/heaven-to-touch-longsleeve.png" alt="a black sweatshirts with two cherubs hugging. the text underneath reads: you're heaven to touch.">
+                        <h2>Heaven to touch longsleeve</h2>
+                        <p><em>€18,00 EUR</em> <s>€26,00 EUR</s></p>
+                    </li>
+                    <li>
+                        <img src="images/velvet-midi-skirt.png" alt="">
+                        <h2>Velvet midi skirt with eyelets</h2>
+                        <p><em>€7,00 EUR</em> <s>€14,00 EUR</s></p>
+                    </li>
+                    <li>
+                        <img src="images/purple-webbing-belt.png" alt="">
+                        <h2>Purple webbing belt</h2>
+                        <p><em>€8,00 EUR</em> <s>€12,00 EUR</s></p>
+                    </li>
+                    <li>
+                        <img src="images/vultures-double-chain.png" alt="">
+                        <h2>Vultures double chain with ring</h2>
+                        <p><em>€7,00 EUR</em> <s>€12,50 EUR</s></p>
+                    </li>
+                    <li>
+                        <img src="images/nymph-crop-top.png" alt="">
+                        <h2>Nymph organic cotton crop top</h2>
+                        <p><em>€14,00 EUR</em> <s>€20,00 EUR</s></p>
+                    </li>
+                    <li>
+                        <img src="images/karma-velvet-harness.png" alt="">
+                        <h2>Karma velvet harness</h2>
+                        <p><em>€22,00 EUR</em> <s>€25,00 EUR</s></p>
+                    </li>
+                </ul>
+            </section>
+        <!-- SECTION 4 -->
+        <!-- Dit stukje krijgt een andere achtergrondkleur om de pagina een beetje op te breken, net als dat de banner images doen. -->
+        <!-- Ook kan de gebruiker hier hun e-mailadres opgeven om op de hoogte gesteld te worden van informatie. -->
+        <section>
+            <h1>Let's keep in touch!</h1>
+            <p>subscribe to our newsletter to be the first to know about new arrivals, sales and more! <3</p>
+            <input type="email" placeholder="Your e-mail address">
+            <button>Subscribe</button>
+        </section>
+    </main>
+    <!--MAIN END / FOOTER START -->
+    <footer>
+            <!-- FOOTER UL 1 -->
+            <ul>
+                <li>
+                    <a href="#"><img src="images/facebook-icon-black.svg" alt="link to facebook page"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/ig_icon_black.svg" alt="link to instagram account"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/pinterest-icon-black.svg" alt="link to pinterest account"></a>
+                </li>
+            </ul>
+            <!-- FOOTER UL 2 -->
+            <ul>
+                <li>
+                    <h3>Free shipping</h3>
+                    <p>free EU delivery on orders over €150</p>
+                </li>
+                <li>
+                    <h3>Small Polish business</h3>
+                    <p>we create our items ethically in Poland</p>
+                </li>
+                <li>
+                    <h3>Easy returns</h3>
+                    <p>up to 14 days</p>
+                </li>
+            </ul>
+            <!-- FOOTER UL 3 -->
+            <ul>
+                <li>
+                    <h3>Information</h3>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+                <li>
+                    <a href="#">Our mission</a>
+                </li>
+                <li>
+                    <a href="#">Price transparency</a>
+                </li>
+                <li>
+                    <a href="#">Terms of contest</a>
+                </li>
+                <li>
+                    <a href="#">Terms of use</a>
+                </li>
+                <li>
+                    <a href="#">Price Policy</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            <!-- FOOTER UL 4 -->
+            <ul>
+                <li>
+                    <h3>Help</h3>
+                </li>
+                <li>
+                    <a href="#">FAQs</a>
+                </li>
+                <li>
+                    <a href="#">Payment methods</a>
+                </li>
+                <li>
+                    <a href="#">Delivery</a>
+                </li>
+                <li>
+                    <a href="#">Returns</a>
+                </li>
+                <li>
+                    <a href="#">Size guide</a>
+                </li>
+                <li>
+                    <a href="#">Gift cards</a>
+                </li>
+            </ul>
+            <!-- FOOTER SECTION -->
+            <section>
+                <h3>Contact</h3>
+                <p>We work from Monday to Friday from 8:00 to 14:00</p>
+                <p>support@skydance.pl</p>
+                <img src="images/fur-free.png" alt="skydance is a fur-free retailer.">
+            </section>
+            <!-- FOOTER UL 5 -->
+            <ul>
+                <li>
+                    <img src="images/PayU.png" alt="skydance accepts PayU as a payment method.">
+                </li>
+                <li>
+                    <img src="images/Visa.png" alt="skydance accepts PayU as a payment method.">
+                </li>
+                <li>
+                    <img src="images/Mastercard.png" alt="skydance accepts PayU as a payment method.">
+                </li>
+                <li>
+                    <img src="images/Blik.png" alt="skydance accepts PayU as a payment method.">
+                </li>
+                <li>
+                    <img src="images/PayPal.png" alt="skydance accepts PayU as a payment method.">
+                </li>
+            </ul>
+            <p>COPYRIGHT © 2022 SKYDANCE EN | REALIZATION MARKOFANI</p>
+    </footer>
+<script src="script.js"></script>
 </body>
 </html>
+
+<!-- BRONNENLIJST -->
+
+<!-- SKYDANCE AFBEELDINGEN-->
+<!-- De afbeeldingen van kleding en dergelijke komen allemaal van de originele site;
+https://en.skydance.pl/-->
+
+<!-- SOCIAL MEDIA ICONS -->
+
+<!-- BETAALMETHODEN -->
+<!-- Betaalmethodes afbeeldingen komen allemaal van commons.wikimedia.org/wikipedia;
+    https://commons.wikimedia.org/wiki/File:PayU.svg
+    https://commons.wikimedia.org/wiki/File:Visa_Inc._logo.svg
+    https://commons.wikimedia.org/wiki/File:Mastercard_2019_logo.svg
+    https://en.wikipedia.org/wiki/Blik#/media/File:Blik_logo.svg
+    https://nl.wikipedia.org/wiki/Bestand:PayPal_logo.svg-->
