@@ -332,7 +332,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 2em;
     text-transform: uppercase;
 
     cursor:pointer;
@@ -374,15 +374,16 @@ main > ul:nth-of-type(1)  li {
 }
 
 main > ul:nth-of-type(1)  li img {
-	width:50%;
+	width:100%;
 }
 
 main > ul:nth-of-type(2) {
 	display:flex;
-	gap:1em;
+	gap:4px;
 	
 	margin:0;
 	padding:0;
+  padding-top: 4px;
 	list-style:none;
 }
 
@@ -399,6 +400,7 @@ main > ul:nth-of-type(2) img {
 /* ********************************** */
 
 /* STICKY */
+/*
 main > section {
 	display:grid;
 	grid-template-columns:1fr 1fr;
@@ -412,7 +414,7 @@ section section:nth-of-type(1) img {
 
 section section:nth-of-type(1) img {
 	width:100%;
-}
+}*/
 
 /* ********************************** */
 /* ********************************** */
