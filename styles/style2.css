@@ -333,9 +333,8 @@ h1 {
 
 h2 {
     font-size: 2em;
+    margin-left: 0.5em;
     text-transform: uppercase;
-
-    cursor:pointer;
 }
 
 h3 {
@@ -395,10 +394,82 @@ main > ul:nth-of-type(2) img {
 	width:100%;
 } 
 
+/* SECTION 1 */
+main > section:nth-of-type(1) button {
+  gap: 1em;
+  margin-left: 1em;
+  width: 4em;
+  height: 4em;
+
+  color: #F9F9F9;
+  background-color: #141414;
+  border-color: #141414;
+  border-style: solid;
+  border-radius: 6px;
+  list-style: none;
+}
+
+main > section:nth-of-type(1) button:hover {
+  background-color: #c51515;
+  border-color: #c51515;
+  
+  cursor: pointer;
+  box-shadow: 0 8px #888;
+}
+
+main > section:nth-of-type(1) button:active {
+  background-color: #781818;
+  border-color: #781818;
+  
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+main > section > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* ********************************** */
 /* ********************************** */
 /* ********************************** */
 
+/* SECTION 2 */
+main > section:nth-of-type(2) button {
+  gap: 1em;
+  margin-left: 1em;
+  margin-bottom: 2em;
+  width: 25em;
+  height: 4em;
+
+  color: #F9F9F9;
+  background-color: #141414;
+  border-color: #141414;
+  border-style: solid;
+  border-radius: 6px;
+  list-style: none;
+}
+
+main > section:nth-of-type(2) button:hover {
+  background-color: #c51515;
+  border-color: #c51515;
+  
+  cursor: pointer;
+  box-shadow: 0 8px #888;
+}
+
+main > section:nth-of-type(1) button:active {
+  background-color: #781818;
+  border-color: #781818;
+  
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+main > section:nth-of-type(2) p:nth-of-type(1) {
+  margin-top: 2em;
+  text-decoration: underline;
+}
 /* STICKY */
 /*
 main > section {
@@ -475,7 +546,7 @@ footer>ul:nth-of-type(5) {
     gap: 2em;
 }
 
-section {
+footer > section {
     background-color: #F9F9F9;
     padding: 1em 1em 1em;
     text-align: center;
