@@ -395,6 +395,7 @@ main > ul:nth-of-type(2) img {
 } 
 
 /* SECTION 1 */
+/*bron: https://codepen.io/shooft/pen/qBYMEzr */
 main > section:nth-of-type(1) button {
   gap: 1em;
   margin-left: 1em;
@@ -471,6 +472,7 @@ main > section:nth-of-type(2) p:nth-of-type(1) {
   text-decoration: underline;
 }
 /* STICKY */
+/*bron: https://codepen.io/shooft/pen/YzLOXPe*/
 /*
 main > section {
 	display:grid;
